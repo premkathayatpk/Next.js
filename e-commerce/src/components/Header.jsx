@@ -1,10 +1,14 @@
 import React from 'react'
+import style from '@styles/header.module.css'
+import Container from './Container'
 
 const Header = () => {
   return (
-    <div>
-      <h1>Header</h1>
-    </div>
+    <header>
+     <Container/>
+
+      
+    </header>
   )
 }
 
